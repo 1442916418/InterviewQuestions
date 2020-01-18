@@ -1,0 +1,634 @@
+[
+    {
+        "code": 400,
+        "tip": "statusCode._400"
+    },
+    {
+        "code": 401,
+        "tip": "",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 403,
+        "tip": "statusCode._403",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 404,
+        "tip": ""
+    },
+    {
+        "code": 1,
+        "tip": "statusCode.tokenExpired",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 2,
+        "tip": "statusCode.tokenFailedValidation",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 3,
+        "tip": "statusCode.accessOuTokenSignatureVerificationError",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 4,
+        "tip": "statusCode.wrongTokenType",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 5,
+        "tip": "statusCode.uidDoesNotMatchToken",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 6,
+        "tip": "statusCode.wrongTokenType",
+        "isLogin": true,
+        "isClear": true
+    },
+    {
+        "code": 7,
+        "tip": "statusCode.addFailure"
+    },
+    {
+        "code": 8,
+        "tip": "statusCode.editorFailure"
+    },
+    {
+        "code": 9,
+        "tip": "statusCode.deleteFailed"
+    },
+    {
+        "code": 10,
+        "tip": "statusCode.queryFailed"
+    },
+    {
+        "code": 11,
+        "tip": "statusCode.RepeatThePhoneNumber"
+    },
+    {
+        "code": 12,
+        "tip": "statusCode.loginFailed"
+    },
+    {
+        "code": 13,
+        "tip": "statusCode.noSuchAuthority"
+    },
+    {
+        "code": 14,
+        "tip": "statusCode.theAccountHasBeenSealed"
+    },
+    {
+        "code": 15,
+        "tip": "statusCode.accountDoesNotExist"
+    },
+    {
+        "code": 16,
+        "tip": "statusCode.permissionValidationFailed"
+    },
+    {
+        "code": 17,
+        "tip": "statusCode.failedToRefreshToken"
+    },
+    {
+        "code": 18,
+        "tip": "statusCode.passwordError"
+    },
+    {
+        "code": 19,
+        "tip": "statusCode.sameParameters"
+    },
+    {
+        "code": 20,
+        "tip": "statusCode.refresh_tokenSignatureVerificationERRor"
+    },
+    {
+        "code": 21,
+        "tip": "statusCode.failedToGetVerificationCode"
+    },
+    {
+        "code": 22,
+        "tip": "statusCode.verificationCodeDoesNotExist"
+    },
+    {
+        "code": 23,
+        "tip": "statusCode.verificationCodeFailed"
+    },
+    {
+        "code": 24,
+        "tip": "statusCode.provincialParametersIllegal"
+    },
+    {
+        "code": 25,
+        "tip": "statusCode.SMSsendingFailed"
+    },
+    {
+        "code": 26,
+        "tip": "statusCode.uploadFailed"
+    },
+    {
+        "code": 27,
+        "tip": "statusCode.cannotBeOdd"
+    },
+    {
+        "code": 28,
+        "tip": "statusCode.noThisFile"
+    },
+    {
+        "code": 29,
+        "tip": "statusCode.verificationCodeError"
+    },
+    {
+        "code": 30,
+        "tip": "statusCode.failedToRetrievePassword"
+    },
+    {
+        "code": 31,
+        "tip": "statusCode.userAccountRepeat"
+    },
+    {
+        "code": 32,
+        "tip": "statusCode.superAdminCnnotBeDeleted"
+    },
+    {
+        "code": 33,
+        "tip": "statusCode.roleNameDuplicate"
+    },
+    {
+        "code": 34,
+        "tip": "statusCode.permissionNameDuplicate"
+    },
+    {
+        "code": 35,
+        "tip": "statusCode.permissionCodeRepate"
+    },
+    {
+        "code": 36,
+        "tip": "statusCode.addARepeat"
+    },
+    {
+        "code": 37,
+        "tip": "statusCode.superUsersCannotBeUnbound"
+    },
+    {
+        "code": 38,
+        "tip": "statusCode.menuNameRepeat"
+    },
+    {
+        "code": 39,
+        "tip": "statusCode.duplicateComplaint"
+    },
+    {
+        "code": 40,
+        "tip": "statusCode.processingFailed"
+    },
+    {
+        "code": 41,
+        "tip": "statusCode.permissionGroupNameDuplicates"
+    },
+    {
+        "code": 42,
+        "tip": "statusCode.departmentNameDuplicate"
+    },
+    {
+        "code": 43,
+        "tip": "statusCode.duplicateMeetingRoomName"
+    },
+    {
+        "code": 44,
+        "tip": "statusCode.startAndEndTime"
+    },
+    {
+        "code": 45,
+        "tip": "statusCode.startTimeIsOccupied"
+    },
+    {
+        "code": 46,
+        "tip": "statusCode.endTimeIsOccupied"
+    },
+    {
+        "code": 47,
+        "tip": "statusCode.noRoom"
+    },
+    {
+        "code": 48,
+        "tip": "statusCode.appointmentFiled"
+    },
+    {
+        "code": 49,
+        "tip": "statusCode.noCancellationFailed"
+    },
+    {
+        "code": 50,
+        "tip": "statusCode.cancellationFailed"
+    },
+    {
+        "code": 51,
+        "tip": "statusCode.failedToOpen"
+    },
+    {
+        "code": 52,
+        "tip": "statusCode.endFailure"
+    },
+    {
+        "code": 53,
+        "tip": "statusCode.duplicateDeviceName"
+    },
+    {
+        "code": 54,
+        "tip": "statusCode.MNRepeat"
+    },
+    {
+        "code": 55,
+        "tip": "statusCode.cityParametersIllegal"
+    },
+    {
+        "code": 56,
+        "tip": "statusCode.zoneParametersIllegal"
+    },
+    {
+        "code": 57,
+        "tip": "statusCode.protocalIdDataIsIllegal"
+    },
+    {
+        "code": 58,
+        "tip": "statusCode.productLineIdDataIllegal"
+    },
+    {
+        "code": 59,
+        "tip": "statusCode.waterPollutionLevelDataIllegal"
+    },
+    {
+        "code": 60,
+        "tip": "statusCode.waterQualityTypeDataIllegal"
+    },
+    {
+        "code": 61,
+        "tip": "satusCode.measurementIntervalDataIllegal"
+    },
+    {
+        "code": 62,
+        "tip": "statusCode.powerSupplyTypeDataIsIllegal"
+    },
+    {
+        "code": 63,
+        "tip": "statusCode.virtualDataIllegal"
+    },
+    {
+        "code": 64,
+        "tip": "statusCode.componentKeyRepeat"
+    },
+    {
+        "code": 65,
+        "tip": "statusCode.updateFailed"
+    },
+    {
+        "code": 66,
+        "tip": "statusCode.productLineNameDuplicate"
+    },
+    {
+        "code": 67,
+        "tip": "statusCode.CNRepeat"
+    },
+    {
+        "code": 68,
+        "tip": "statusCode.AgreementNameDuplicate"
+    },
+    {
+        "code": 69,
+        "tip": "statusCode.versionNameDuplicate"
+    },
+    {
+        "code": 70,
+        "tip": "statusCode.sendFailed"
+    },
+    {
+        "code": 71,
+        "tip": "statusCode.timeSettingError"
+    },
+    {
+        "code": 72,
+        "tip": "statusCode.timeSettingSupplicling"
+    },
+    {
+        "code": 73,
+        "tip": "statusCode.activationFailed"
+    },
+    {
+        "code": 74,
+        "tip": "statusCode.activationFailed"
+    },
+    {
+        "code": 75,
+        "tip": "statusCode.fileNmaeDuplicate"
+    },
+    {
+        "code": 76,
+        "tip": "statusCode.driveRepeat"
+    },
+    {
+        "code": 77,
+        "tip": "statusCode.fileFormatIsWrong"
+    },
+    {
+        "code": 78,
+        "tip": "statusCode.failedToUploadQuestionLibrary"
+    },
+    {
+        "code": 79,
+        "tip": "statusCode.emptyingTheQuestionBankFailed"
+    },
+    {
+        "code": 80,
+        "tip": "statusCode.attendeesCannotBeEmpty"
+    },
+    {
+        "code": 81,
+        "tip": "statusCode.roomIdCannotBeEmpty"
+    },
+    {
+        "code": 82,
+        "tip": "statusCode.t"
+    },
+    {
+        "code": 83,
+        "tip": "statusCode.correctAnswer"
+    },
+    {
+        "code": 84,
+        "tip": "statusCode.failureOfAnswer"
+    },
+    {
+        "code": 85,
+        "tip": "statusCode.answered"
+    },
+    {
+        "code": 86,
+        "tip": "statusCode.wrongAnswer"
+    },
+    {
+        "code": 87,
+        "tip": "statusCode.emptyingFailure"
+    },
+    {
+        "code": 88,
+        "tip": "statusCode.successfulClearance"
+    },
+    {
+        "code": 89,
+        "tip": "statusCode.problemReturnFailed"
+    },
+    {
+        "code": 90,
+        "tip": "statusCode.viewSuccess"
+    },
+    {
+        "code": 91,
+        "tip": "statusCode.viewFailure"
+    },
+    {
+        "code": 92,
+        "tip": "statusCode.submitSuccessfuly"
+    },
+    {
+        "code": 93,
+        "tip": "statusCode.submitFailure"
+    },
+    {
+        "code": 94,
+        "tip": "statusCode.idError"
+    },
+    {
+        "code": 95,
+        "tip": "statusCode.articleEntryFailed"
+    },
+    {
+        "code": 96,
+        "tip": "statusCode.noAnswer"
+    },
+    {
+        "code": 97,
+        "tip": "statusCode.noFile"
+    },
+    {
+        "code": 98,
+        "tip": "statusCode._98"
+    },
+    {
+        "code": 99,
+        "tip": "statusCode._99"
+    },
+    {
+        "code": 100,
+        "tip": "statusCode._100"
+    },
+    {
+        "code": 101,
+        "tip": "statusCode._101"
+    },
+    {
+        "code": 102,
+        "tip": "statusCode._102"
+    },
+    {
+        "code": 103,
+        "tip": "statusCode._103"
+    },
+    {
+        "code": 104,
+        "tip": "statusCode._104"
+    },
+    {
+        "code": 105,
+        "tip": "statusCode._105"
+    },
+    {
+        "code": 106,
+        "tip": "statusCode._106"
+    },
+    {
+        "code": 107,
+        "tip": "statusCode._107"
+    },
+    {
+        "code": 108,
+        "tip": "statusCode._108"
+    },
+    {
+        "code": 109,
+        "tip": "statusCode._109"
+    },
+    {
+        "code": 110,
+        "tip": "statusCode._110"
+    },
+    {
+        "code": 111,
+        "tip": "statusCode._111"
+    },
+    {
+        "code": 112,
+        "tip": "statusCode._112"
+    },
+    {
+        "code": 113,
+        "tip": "statusCode._113"
+    },
+    {
+        "code": 114,
+        "tip": "statusCode._114"
+    },
+    {
+        "code": 115,
+        "tip": "statusCode._115"
+    },
+    {
+        "code": 116,
+        "tip": "statusCode._116"
+    },
+    {
+        "code": 117,
+        "tip": "statusCode._117"
+    },
+    {
+        "code": 118,
+        "tip": "statusCode._118"
+    },
+    {
+        "code": 119,
+        "tip": "statusCode._119"
+    },
+    {
+        "code": 120,
+        "tip": "statusCode._120"
+    },
+    {
+        "code": 121,
+        "tip": "statusCode._121"
+    },
+    {
+        "code": 122,
+        "tip": "statusCode._122"
+    },
+    {
+        "code": 123,
+        "tip": "statusCode._123"
+    },
+    {
+        "code": 124,
+        "tip": "statusCode._124"
+    },
+    {
+        "code": 125,
+        "tip": "statusCode._125"
+    },
+    {
+        "code": 126,
+        "tip": "statusCode._126"
+    },
+    {
+        "code": 127,
+        "tip": "statusCode._127"
+    },
+    {
+        "code": 128,
+        "tip": "statusCode._128"
+    },
+    {
+        "code": 129,
+        "tip": "statusCode._129"
+    },
+    {
+        "code": 130,
+        "tip": "statusCode._130"
+    },
+    {
+        "code": 131,
+        "tip": "statusCode._131"
+    },
+    {
+        "code": 132,
+        "tip": "statusCode._132"
+    },
+    {
+        "code": 133,
+        "tip": "statusCode._133"
+    },
+    {
+        "code": 134,
+        "tip": "statusCode._134"
+    },
+    {
+        "code": 135,
+        "tip": "statusCode._135"
+    },
+    {
+        "code": 136,
+        "tip": "statusCode._136"
+    },
+    {
+        "code": 137,
+        "tip": "statusCode._137"
+    },
+    {
+        "code": 138,
+        "tip": "statusCode._138"
+    },
+    {
+        "code": 139,
+        "tip": "statusCode._139"
+    },
+    {
+        "code": 140,
+        "tip": "statusCode._140"
+    },
+    {
+        "code": 141,
+        "tip": "statusCode._141"
+    },
+    {
+        "code": 142,
+        "tip": "statusCode._142"
+    },
+    {
+        "code": 143,
+        "tip": "statusCode._143"
+    },
+    {
+        "code": 144,
+        "tip": "statusCode._144"
+    },
+    {
+        "code": 145,
+        "tip": "statusCode._145"
+    },
+    {
+        "code": 146,
+        "tip": "statusCode._146"
+    },
+    {
+        "code": 147,
+        "tip": "statusCode._147"
+    },
+    {
+        "code": 148,
+        "tip": "statusCode._148"
+    },
+    {
+        "code": 149,
+        "tip": "statusCode._149"
+    },
+    {
+        "code": 150,
+        "tip": "statusCode._150"
+    }
+]
